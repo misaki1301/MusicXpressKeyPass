@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D06E802C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E7F2C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift */; };
+		F5D06E822C1C5FA900FDB5A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E812C1C5FA900FDB5A8 /* ContentView.swift */; };
+		F5D06E842C1C5FA900FDB5A8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E832C1C5FA900FDB5A8 /* Item.swift */; };
+		F5D06E862C1C5FAC00FDB5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D06E852C1C5FAC00FDB5A8 /* Assets.xcassets */; };
+		F5D06E892C1C5FAC00FDB5A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D06E882C1C5FAC00FDB5A8 /* Preview Assets.xcassets */; };
+		F5D06E932C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E922C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift */; };
+		F5D06E9D2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E9C2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift */; };
+		F5D06E9F2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E9E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D06E8F2C1C5FAD00FDB5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D06E742C1C5FA800FDB5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D06E7B2C1C5FA900FDB5A8;
+			remoteInfo = MusicXpressKeyPass;
+		};
+		F5D06E992C1C5FAD00FDB5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D06E742C1C5FA800FDB5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D06E7B2C1C5FA900FDB5A8;
+			remoteInfo = MusicXpressKeyPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D06E7C2C1C5FA900FDB5A8 /* MusicXpressKeyPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicXpressKeyPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D06E7F2C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassApp.swift; sourceTree = "<group>"; };
+		F5D06E812C1C5FA900FDB5A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5D06E832C1C5FA900FDB5A8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F5D06E852C1C5FAC00FDB5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D06E882C1C5FAC00FDB5A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5D06E8E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicXpressKeyPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D06E922C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassTests.swift; sourceTree = "<group>"; };
+		F5D06E982C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicXpressKeyPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D06E9C2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassUITests.swift; sourceTree = "<group>"; };
+		F5D06E9E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D06E792C1C5FA900FDB5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E8B2C1C5FAD00FDB5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E952C1C5FAD00FDB5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D06E732C1C5FA800FDB5A8 = {
+			isa = PBXGroup;
+			children = (
+				F5D06E7E2C1C5FA900FDB5A8 /* MusicXpressKeyPass */,
+				F5D06E912C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests */,
+				F5D06E9B2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests */,
+				F5D06E7D2C1C5FA900FDB5A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D06E7D2C1C5FA900FDB5A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06E7C2C1C5FA900FDB5A8 /* MusicXpressKeyPass.app */,
+				F5D06E8E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.xctest */,
+				F5D06E982C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D06E7E2C1C5FA900FDB5A8 /* MusicXpressKeyPass */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06E7F2C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift */,
+				F5D06E812C1C5FA900FDB5A8 /* ContentView.swift */,
+				F5D06E832C1C5FA900FDB5A8 /* Item.swift */,
+				F5D06E852C1C5FAC00FDB5A8 /* Assets.xcassets */,
+				F5D06E872C1C5FAC00FDB5A8 /* Preview Content */,
+			);
+			path = MusicXpressKeyPass;
+			sourceTree = "<group>";
+		};
+		F5D06E872C1C5FAC00FDB5A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06E882C1C5FAC00FDB5A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5D06E912C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06E922C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift */,
+			);
+			path = MusicXpressKeyPassTests;
+			sourceTree = "<group>";
+		};
+		F5D06E9B2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06E9C2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift */,
+				F5D06E9E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift */,
+			);
+			path = MusicXpressKeyPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D06E7B2C1C5FA900FDB5A8 /* MusicXpressKeyPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D06EA22C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPass" */;
+			buildPhases = (
+				F5D06E782C1C5FA900FDB5A8 /* Sources */,
+				F5D06E792C1C5FA900FDB5A8 /* Frameworks */,
+				F5D06E7A2C1C5FA900FDB5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicXpressKeyPass;
+			productName = MusicXpressKeyPass;
+			productReference = F5D06E7C2C1C5FA900FDB5A8 /* MusicXpressKeyPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D06E8D2C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D06EA52C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPassTests" */;
+			buildPhases = (
+				F5D06E8A2C1C5FAD00FDB5A8 /* Sources */,
+				F5D06E8B2C1C5FAD00FDB5A8 /* Frameworks */,
+				F5D06E8C2C1C5FAD00FDB5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D06E902C1C5FAD00FDB5A8 /* PBXTargetDependency */,
+			);
+			name = MusicXpressKeyPassTests;
+			productName = MusicXpressKeyPassTests;
+			productReference = F5D06E8E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5D06E972C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D06EA82C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPassUITests" */;
+			buildPhases = (
+				F5D06E942C1C5FAD00FDB5A8 /* Sources */,
+				F5D06E952C1C5FAD00FDB5A8 /* Frameworks */,
+				F5D06E962C1C5FAD00FDB5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D06E9A2C1C5FAD00FDB5A8 /* PBXTargetDependency */,
+			);
+			name = MusicXpressKeyPassUITests;
+			productName = MusicXpressKeyPassUITests;
+			productReference = F5D06E982C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D06E742C1C5FA800FDB5A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F5D06E7B2C1C5FA900FDB5A8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F5D06E8D2C1C5FAD00FDB5A8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F5D06E7B2C1C5FA900FDB5A8;
+					};
+					F5D06E972C1C5FAD00FDB5A8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F5D06E7B2C1C5FA900FDB5A8;
+					};
+				};
+			};
+			buildConfigurationList = F5D06E772C1C5FA800FDB5A8 /* Build configuration list for PBXProject "MusicXpressKeyPass" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D06E732C1C5FA800FDB5A8;
+			productRefGroup = F5D06E7D2C1C5FA900FDB5A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D06E7B2C1C5FA900FDB5A8 /* MusicXpressKeyPass */,
+				F5D06E8D2C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests */,
+				F5D06E972C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D06E7A2C1C5FA900FDB5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D06E892C1C5FAC00FDB5A8 /* Preview Assets.xcassets in Resources */,
+				F5D06E862C1C5FAC00FDB5A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E8C2C1C5FAD00FDB5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E962C1C5FAD00FDB5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D06E782C1C5FA900FDB5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D06E822C1C5FA900FDB5A8 /* ContentView.swift in Sources */,
+				F5D06E842C1C5FA900FDB5A8 /* Item.swift in Sources */,
+				F5D06E802C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E8A2C1C5FAD00FDB5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D06E932C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D06E942C1C5FAD00FDB5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D06E9F2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift in Sources */,
+				F5D06E9D2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D06E902C1C5FAD00FDB5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D06E7B2C1C5FA900FDB5A8 /* MusicXpressKeyPass */;
+			targetProxy = F5D06E8F2C1C5FAD00FDB5A8 /* PBXContainerItemProxy */;
+		};
+		F5D06E9A2C1C5FAD00FDB5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D06E7B2C1C5FA900FDB5A8 /* MusicXpressKeyPass */;
+			targetProxy = F5D06E992C1C5FAD00FDB5A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5D06EA02C1C5FAD00FDB5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D06EA12C1C5FAD00FDB5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D06EA32C1C5FAD00FDB5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicXpressKeyPass/Preview Content\"";
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D06EA42C1C5FAD00FDB5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicXpressKeyPass/Preview Content\"";
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5D06EA62C1C5FAD00FDB5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicXpressKeyPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicXpressKeyPass";
+			};
+			name = Debug;
+		};
+		F5D06EA72C1C5FAD00FDB5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicXpressKeyPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicXpressKeyPass";
+			};
+			name = Release;
+		};
+		F5D06EA92C1C5FAD00FDB5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicXpressKeyPass;
+			};
+			name = Debug;
+		};
+		F5D06EAA2C1C5FAD00FDB5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B97JTSGWZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicXpressKeyPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D06E772C1C5FA800FDB5A8 /* Build configuration list for PBXProject "MusicXpressKeyPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D06EA02C1C5FAD00FDB5A8 /* Debug */,
+				F5D06EA12C1C5FAD00FDB5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D06EA22C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D06EA32C1C5FAD00FDB5A8 /* Debug */,
+				F5D06EA42C1C5FAD00FDB5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D06EA52C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D06EA62C1C5FAD00FDB5A8 /* Debug */,
+				F5D06EA72C1C5FAD00FDB5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D06EA82C1C5FAD00FDB5A8 /* Build configuration list for PBXNativeTarget "MusicXpressKeyPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D06EA92C1C5FAD00FDB5A8 /* Debug */,
+				F5D06EAA2C1C5FAD00FDB5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D06E742C1C5FA800FDB5A8 /* Project object */;
+}
