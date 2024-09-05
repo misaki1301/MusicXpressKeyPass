@@ -15,6 +15,13 @@
 		F5D06E932C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E922C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests.swift */; };
 		F5D06E9D2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E9C2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift */; };
 		F5D06E9F2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E9E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift */; };
+		F5D06EAD2C1D3BB300FDB5A8 /* NavigationCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06EAC2C1D3BB300FDB5A8 /* NavigationCore.swift */; };
+		F5D06EB02C1E77FC00FDB5A8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06EAF2C1E77FC00FDB5A8 /* RegisterView.swift */; };
+		F5D06EB32C1E903300FDB5A8 /* WebAuthnAccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06EB22C1E903300FDB5A8 /* WebAuthnAccountManager.swift */; };
+		F5D06EB62C1EA3D100FDB5A8 /* UserLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06EB52C1EA3D100FDB5A8 /* UserLocal.swift */; };
+		F5D9529A2C20347500840296 /* BeginWebAuthnRegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D952992C20347500840296 /* BeginWebAuthnRegistrationResponse.swift */; };
+		F5F75DAB2C1FD5AD00CC604E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F75DAA2C1FD5AD00CC604E /* HomeView.swift */; };
+		F5F75DAD2C20129300CC604E /* PassKeyRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F75DAC2C20129300CC604E /* PassKeyRegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,14 @@
 		F5D06E982C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicXpressKeyPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D06E9C2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassUITests.swift; sourceTree = "<group>"; };
 		F5D06E9E2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicXpressKeyPassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5D06EAC2C1D3BB300FDB5A8 /* NavigationCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCore.swift; sourceTree = "<group>"; };
+		F5D06EAF2C1E77FC00FDB5A8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		F5D06EB22C1E903300FDB5A8 /* WebAuthnAccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthnAccountManager.swift; sourceTree = "<group>"; };
+		F5D06EB52C1EA3D100FDB5A8 /* UserLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocal.swift; sourceTree = "<group>"; };
+		F5D952992C20347500840296 /* BeginWebAuthnRegistrationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginWebAuthnRegistrationResponse.swift; sourceTree = "<group>"; };
+		F5F75DA82C1FC41200CC604E /* MusicXpressKeyPass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicXpressKeyPass.entitlements; sourceTree = "<group>"; };
+		F5F75DAA2C1FD5AD00CC604E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5F75DAC2C20129300CC604E /* PassKeyRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassKeyRegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +111,11 @@
 		F5D06E7E2C1C5FA900FDB5A8 /* MusicXpressKeyPass */ = {
 			isa = PBXGroup;
 			children = (
+				F5F75DA82C1FC41200CC604E /* MusicXpressKeyPass.entitlements */,
+				F5D06EB42C1EA3B000FDB5A8 /* Manager */,
+				F5D06EB12C1E901800FDB5A8 /* Models */,
+				F5D06EAB2C1D3B7100FDB5A8 /* Navigation */,
+				F5D06EAE2C1E77A600FDB5A8 /* Views */,
 				F5D06E7F2C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift */,
 				F5D06E812C1C5FA900FDB5A8 /* ContentView.swift */,
 				F5D06E832C1C5FA900FDB5A8 /* Item.swift */,
@@ -130,6 +150,49 @@
 			path = MusicXpressKeyPassUITests;
 			sourceTree = "<group>";
 		};
+		F5D06EAB2C1D3B7100FDB5A8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06EAC2C1D3BB300FDB5A8 /* NavigationCore.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F5D06EAE2C1E77A600FDB5A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06EAF2C1E77FC00FDB5A8 /* RegisterView.swift */,
+				F5F75DAA2C1FD5AD00CC604E /* HomeView.swift */,
+				F5F75DAC2C20129300CC604E /* PassKeyRegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5D06EB12C1E901800FDB5A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5D952982C20345200840296 /* Response */,
+				F5D06EB52C1EA3D100FDB5A8 /* UserLocal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5D06EB42C1EA3B000FDB5A8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06EB22C1E903300FDB5A8 /* WebAuthnAccountManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F5D952982C20345200840296 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F5D952992C20347500840296 /* BeginWebAuthnRegistrationResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +209,8 @@
 			dependencies = (
 			);
 			name = MusicXpressKeyPass;
+			packageProductDependencies = (
+			);
 			productName = MusicXpressKeyPass;
 			productReference = F5D06E7C2C1C5FA900FDB5A8 /* MusicXpressKeyPass.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +283,9 @@
 				Base,
 			);
 			mainGroup = F5D06E732C1C5FA800FDB5A8;
+			packageReferences = (
+				F58AF7DC2C202F930024E8E4 /* XCLocalSwiftPackageReference "../SwordWard" */,
+			);
 			productRefGroup = F5D06E7D2C1C5FA900FDB5A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D06EAD2C1D3BB300FDB5A8 /* NavigationCore.swift in Sources */,
+				F5D06EB32C1E903300FDB5A8 /* WebAuthnAccountManager.swift in Sources */,
+				F5D06EB02C1E77FC00FDB5A8 /* RegisterView.swift in Sources */,
 				F5D06E822C1C5FA900FDB5A8 /* ContentView.swift in Sources */,
 				F5D06E842C1C5FA900FDB5A8 /* Item.swift in Sources */,
+				F5D9529A2C20347500840296 /* BeginWebAuthnRegistrationResponse.swift in Sources */,
+				F5F75DAD2C20129300CC604E /* PassKeyRegisterView.swift in Sources */,
+				F5F75DAB2C1FD5AD00CC604E /* HomeView.swift in Sources */,
 				F5D06E802C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift in Sources */,
+				F5D06EB62C1EA3D100FDB5A8 /* UserLocal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicXpressKeyPass/MusicXpressKeyPass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicXpressKeyPass/Preview Content\"";
@@ -441,9 +517,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicXpressKeyPass/MusicXpressKeyPass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicXpressKeyPass/Preview Content\"";
@@ -470,9 +551,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shibuyaxpress.MusicXpressKeyPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -588,6 +673,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F58AF7DC2C202F930024E8E4 /* XCLocalSwiftPackageReference "../SwordWard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SwordWard;
+		};
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = F5D06E742C1C5FA800FDB5A8 /* Project object */;
 }
