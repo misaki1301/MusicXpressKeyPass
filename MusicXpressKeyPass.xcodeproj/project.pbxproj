@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F500FD632CB0AEB600A3C66F /* SwordWard in Frameworks */ = {isa = PBXBuildFile; productRef = F500FD622CB0AEB600A3C66F /* SwordWard */; };
 		F5D06E802C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E7F2C1C5FA900FDB5A8 /* MusicXpressKeyPassApp.swift */; };
 		F5D06E822C1C5FA900FDB5A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E812C1C5FA900FDB5A8 /* ContentView.swift */; };
 		F5D06E842C1C5FA900FDB5A8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D06E832C1C5FA900FDB5A8 /* Item.swift */; };
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F500FD632CB0AEB600A3C66F /* SwordWard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +90,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F500FD612CB0AEB600A3C66F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5D06E732C1C5FA800FDB5A8 = {
 			isa = PBXGroup;
 			children = (
 				F5D06E7E2C1C5FA900FDB5A8 /* MusicXpressKeyPass */,
 				F5D06E912C1C5FAD00FDB5A8 /* MusicXpressKeyPassTests */,
 				F5D06E9B2C1C5FAD00FDB5A8 /* MusicXpressKeyPassUITests */,
+				F500FD612CB0AEB600A3C66F /* Frameworks */,
 				F5D06E7D2C1C5FA900FDB5A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -210,6 +220,7 @@
 			);
 			name = MusicXpressKeyPass;
 			packageProductDependencies = (
+				F500FD622CB0AEB600A3C66F /* SwordWard */,
 			);
 			productName = MusicXpressKeyPass;
 			productReference = F5D06E7C2C1C5FA900FDB5A8 /* MusicXpressKeyPass.app */;
@@ -680,6 +691,14 @@
 			relativePath = ../SwordWard;
 		};
 /* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F500FD622CB0AEB600A3C66F /* SwordWard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58AF7DC2C202F930024E8E4 /* XCLocalSwiftPackageReference "../SwordWard" */;
+			productName = SwordWard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5D06E742C1C5FA800FDB5A8 /* Project object */;
 }

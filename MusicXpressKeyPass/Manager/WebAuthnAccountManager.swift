@@ -11,7 +11,7 @@ import os
 import _AuthenticationServices_SwiftUI
 import SwordWard
 
-private let domain = "8d0d-2001-1388-19e8-e4fb-b996-6f34-51aa-def2.ngrok-free.app/"
+private let domain = "0774-2001-1388-19e9-8f87-2c36-13d6-4004-5a2b.ngrok-free.app/"
 private let createUserEndpoint = "https://\(domain)signup"
 private let signInUserEndpoint = "https://\(domain)authenticate"
 private let registerBeginEndpoint = "https://\(domain)makeCredential"
@@ -51,7 +51,7 @@ public final class AuthorizationManager: NSObject, ObservableObject, ASAuthoriza
 		currentUser != nil
 	}
 	
-	private static let relyingPartyIdentifier = "8d0d-2001-1388-19e8-e4fb-b996-6f34-51aa-def2.ngrok-free.app"
+	private static let relyingPartyIdentifier = "0774-2001-1388-19e9-8f87-2c36-13d6-4004-5a2b.ngrok-free.app"
 	
 	private func signInRequests() async -> [ASAuthorizationRequest] {
 		await [passkeyAssertionRequest(), ASAuthorizationPasswordProvider().createRequest()]
